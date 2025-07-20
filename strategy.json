@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "ETHUSDT",
+    "type": "price_alert",
+    "condition": ">= 3600",
+    "message": "ETH 突破 3600，請評估空單機會"
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "type": "price_alert",
+    "condition": "<= 0.235",
+    "message": "DOGE 跌破 0.235，觀察是否空頭發動"
+  }
+]
