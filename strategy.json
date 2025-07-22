@@ -1,46 +1,7 @@
 {
-  "ETHUSDT": {
-    "symbol": "ETHUSDT",
-    "exchange": "bingx",
-    "contractType": "standard",
-    "alerts": [
-      {
-        "type": "price",
-        "condition": "gte",
-        "value": 3730,
-        "message": "ETH 觸及高位壓力區 3730，請留意是否翻空"
-      },
-      {
-        "type": "price",
-        "condition": "lte",
-        "value": 3680,
-        "message": "ETH 跌破 3680，主力翻空可能成立，空單進場機會"
-      },
-      {
-        "type": "price",
-        "condition": "lte",
-        "value": 3540,
-        "message": "ETH 達空單守城模式第三止盈點 3540，可考慮出場或設追蹤止盈"
-      }
-    ]
-  },
-  "SOLUSDT": {
-    "symbol": "SOLUSDT",
-    "exchange": "bingx",
-    "contractType": "standard",
-    "alerts": [
-      {
-        "type": "price",
-        "condition": "gte",
-        "value": 186,
-        "message": "SOL 上攻至 186，觀察是否誘多轉弱"
-      },
-      {
-        "type": "price",
-        "condition": "lte",
-        "value": 174,
-        "message": "SOL 跌破 174，留意放空機會"
-      }
-    ]
-  }
+  "strategies": [
+    { "symbol": "ETHUSDT", "type": "short", ... },
+    { "symbol": "DOGEUSDT", "type": "long", ... },
+    { "symbol": "SOLUSDT", "type": "short", ... }
+  ]
 }
